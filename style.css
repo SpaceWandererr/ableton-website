@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Futura";
-  src: url("/Font/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
+  src: url("./Font/futura-pt/FuturaCyrillicBook.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -37,7 +37,7 @@ header {
   border-bottom: 1px solid #e5e5e5;
   background-color: #fff;
   padding: 1rem 1rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 header nav {
   min-height: 3rem;
@@ -200,6 +200,10 @@ main .sectionFirst .firstDiv .ablenton {
 }
 main .sectionFirst .secondDiv {
   padding: 2.5rem 7.5rem;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 main .sectionFirst .secondDiv h3 {
   font-size: 2rem;
@@ -208,6 +212,7 @@ main .sectionFirst .secondDiv h3 {
 main .sectionFirst .secondDiv p {
   font-weight: 200;
   font-size: 1.3rem;
+  color: rgba(17, 17, 17, 0.8196078431);
 }
 main .sectionSecond {
   display: flex;
@@ -267,6 +272,7 @@ main .sectionThree h3 {
 main .sectionThree p {
   font-size: clamp(1rem, 0.286rem + 2.286vi, 1.1rem);
   line-height: 1.4;
+  color: rgba(17, 17, 17, 0.8196078431);
 }
 main .sectionThree .second img {
   width: 100%;
@@ -320,8 +326,13 @@ main .sectionFive {
   align-items: center;
 }
 main .sectionFive div:nth-child(1), main .sectionFive div:nth-child(3) {
-  max-width: 100%;
+  max-width: 80%;
   padding: 4rem;
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 main .sectionFive h3 {
   font-size: clamp(1rem, 0.586rem + 2.286vi, 3rem);
@@ -331,6 +342,7 @@ main .sectionFive p {
   font-size: clamp(1rem, 0.286rem + 2.286vi, 1.1rem);
   line-height: 1.5;
   max-width: 80%;
+  color: rgba(17, 17, 17, 0.8196078431);
 }
 main .sectionFive img {
   width: 100%;
@@ -368,6 +380,7 @@ main .sectionSeven .first {
   height: 50%;
   width: 100%;
   padding: 2rem 6rem;
+  margin: 5rem 0;
 }
 main .sectionSeven .first h3 {
   font-size: clamp(20px, 2.5vw, 48px);
@@ -375,6 +388,7 @@ main .sectionSeven .first h3 {
 }
 main .sectionSeven .first p {
   font-size: 15px, 1.5vw, 24px;
+  color: rgba(17, 17, 17, 0.8196078431);
 }
 main .sectionSeven .second {
   display: flex;
